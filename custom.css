@@ -1,0 +1,22 @@
+/** COLORS**/
+
+[data-theme='cozy'] {
+  --color-beige: #f3ede3;
+  --color-tan: #d8c4a8;
+  --color-lightgreen: #8c9a6e;
+  --color-red: #a35a40;
+  --color-darkgreen: #2b3428;
+  --color-darkbrown: #765314;
+}
+
+body {
+  color: var(--color-darkbrown);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-darkgreen);
+  font-family: "Playfair Display", serif;
+
+}
