@@ -6,17 +6,27 @@
   --color-lightgreen: #8c9a6e;
   --color-red: #a35a40;
   --color-darkgreen: #2b3428;
-  --color-darkbrown: #765314;
+  --color-brown: #765314;
+  --color-darkbrown: #332421;
+  --color-primary: #2b3428;
 }
 
-body {
-  color: var(--color-darkbrown);
+
+.hero-glow {
+  background: radial-gradient(60% 50% at 85% 0%, color-mix(in oklch, var(--color-primary) 14%, transparent), transparent 70%),
+    var(--color-beige);
 }
+
+
 
 h1,
 h2,
 h3 {
-  color: var(--color-darkgreen);
   font-family: "Playfair Display", serif;
+  color: var(--color-darkbrown);
+}
 
+div {
+  font-family: "Merriweather", serif;
+  color: var(--color-brown);
 }
