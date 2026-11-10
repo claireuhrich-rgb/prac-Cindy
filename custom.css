@@ -3,21 +3,34 @@
 [data-theme='cozy'] {
   --color-beige: #f3ede3;
   --color-tan: #d8c4a8;
-  --color-lightgreen: #8c9a6e;
+  --color-neutral: #8c9a6e;
   --color-red: #a35a40;
   --color-darkgreen: #2b3428;
   --color-brown: #765314;
   --color-darkbrown: #332421;
   --color-primary: #2b3428;
+  --color-success: #e1ad01;
 }
 
+body {
+  background-color: var(--color-beig);
+}
 
 .hero-glow {
   background: radial-gradient(60% 50% at 85% 0%, color-mix(in oklch, var(--color-primary) 14%, transparent), transparent 70%),
     var(--color-beige);
 }
 
+.bg-base-200\/60 {
+  @supports (color:color-mix(in lab, red, red)) {
+    background-color:
+      color-mix(in oklab, var(--color-neutral) 60%, #0000);
+  }
+}
 
+.text-base-content {
+  color: var(--color-brown);
+}
 
 h1,
 h2,
