@@ -13,12 +13,16 @@
 }
 
 body {
-  background-color: var(--color-beig);
+  background-color: var(--color-beige);
 }
 
 .hero-glow {
   background: radial-gradient(60% 50% at 85% 0%, color-mix(in oklch, var(--color-primary) 14%, transparent), transparent 70%),
     var(--color-beige);
+}
+
+.bg-base-200 {
+  background-color: var(--color-tan);
 }
 
 .bg-base-200\/60 {
